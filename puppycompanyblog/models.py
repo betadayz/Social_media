@@ -42,7 +42,4 @@ class BlogPost(db.Models):
               
     def __repr__(self):
         return f"Post ID: {self.id} -- Date: {self.date} --- Text: {self.title}"
-        
-    
-    
     

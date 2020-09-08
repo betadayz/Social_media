@@ -66,6 +66,116 @@
         }
     },
     {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {
+            "value": "\n```python\nimport flask_wtf\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {
+            "value": "\n```python\nimport wtforms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {
+            "value": "\n```python\nimport wtforms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "SubmitField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {
+            "value": "\n```python\nimport wtforms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {
+            "value": "\n```python\nimport wtforms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {
+            "value": "\n```python\nimport wtforms.validators\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Email",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {
+            "value": "\n```python\nimport wtforms.validators\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "EqualTo",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {
+            "value": "\n```python\nimport wtforms.validators\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "FileField",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {
+            "value": "\n```python\nimport flask_wtf.file\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "FileAllowed",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {
+            "value": "\n```python\nimport flask_wtf.file\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "db",
         "importPath": "puppycompanyblog",
         "description": "puppycompanyblog",
