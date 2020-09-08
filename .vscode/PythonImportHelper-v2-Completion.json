@@ -1,0 +1,404 @@
+[
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "db",
+        "importPath": "puppycompanyblog",
+        "description": "puppycompanyblog",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "login_manager",
+        "importPath": "puppycompanyblog",
+        "description": "puppycompanyblog",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app",
+        "importPath": "puppycompanyblog",
+        "description": "puppycompanyblog",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {
+            "value": "\n```python\nimport werkzeug.security\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {
+            "value": "\n```python\nimport werkzeug.security\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "LoginManager",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {
+            "value": "\n```python\nimport datetime\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {
+            "value": "\n```python\nimport os\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy import ",
+        "description": "flask_sqlalchemy import ",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy import ",
+        "documentation": {
+            "value": "\n```python\nimport flask_sqlalchemy import \n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {
+            "value": "\n```python\nimport flask_migrate\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "core",
+        "importPath": "puppycompanyblog.core.views",
+        "description": "puppycompanyblog.core.views",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.core.views",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.core.views\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "error_pages",
+        "importPath": "puppycompanyblog.error_pages.handlers",
+        "description": "puppycompanyblog.error_pages.handlers",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.error_pages.handlers",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.error_pages.handlers\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "puppycompanyblog.core.views",
+        "description": "puppycompanyblog.core.views",
+        "peekOfCode": "def index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')",
+        "detail": "puppycompanyblog.core.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.core.views import index\n```\n\n```python\n\n\n```\n\n```python\ndef index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "info",
+        "kind": 2,
+        "importPath": "puppycompanyblog.core.views",
+        "description": "puppycompanyblog.core.views",
+        "peekOfCode": "def info():\n    return render_template('info.html')",
+        "detail": "puppycompanyblog.core.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.core.views import info\n```\n\n```python\n\n\n```\n\n```python\ndef info():\n    return render_template('info.html')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "core",
+        "kind": 5,
+        "importPath": "puppycompanyblog.core.views",
+        "description": "puppycompanyblog.core.views",
+        "peekOfCode": "core = Blueprint('core',__name__)\n@core.route('/')\ndef index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')",
+        "detail": "puppycompanyblog.core.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.core.views import core\n```\n\n```python\n\n\n```\n\n```python\ncore = Blueprint('core',__name__)\n@core.route('/')\ndef index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "error_404",
+        "kind": 2,
+        "importPath": "puppycompanyblog.error_pages.handlers",
+        "description": "puppycompanyblog.error_pages.handlers",
+        "peekOfCode": "def error_404(error):\n    return render_template('error_pages/404.html'), 404\n@error_pages.app_errorhandler(403)\ndef error_403(error):\n    return render_template('error_pages/403.html'), 403",
+        "detail": "puppycompanyblog.error_pages.handlers",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.error_pages.handlers import error_404\n```\n\n```python\n\n\n```\n\n```python\ndef error_404(error):\n    return render_template('error_pages/404.html'), 404\n@error_pages.app_errorhandler(403)\ndef error_403(error):\n    return render_template('error_pages/403.html'), 403\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "error_403",
+        "kind": 2,
+        "importPath": "puppycompanyblog.error_pages.handlers",
+        "description": "puppycompanyblog.error_pages.handlers",
+        "peekOfCode": "def error_403(error):\n    return render_template('error_pages/403.html'), 403",
+        "detail": "puppycompanyblog.error_pages.handlers",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.error_pages.handlers import error_403\n```\n\n```python\n\n\n```\n\n```python\ndef error_403(error):\n    return render_template('error_pages/403.html'), 403\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "error_pages",
+        "kind": 5,
+        "importPath": "puppycompanyblog.error_pages.handlers",
+        "description": "puppycompanyblog.error_pages.handlers",
+        "peekOfCode": "error_pages = Blueprint('error_pages',__name__)\n@error_pages.app_errorhandler(404)\ndef error_404(error):\n    return render_template('error_pages/404.html'), 404\n@error_pages.app_errorhandler(403)\ndef error_403(error):\n    return render_template('error_pages/403.html'), 403",
+        "detail": "puppycompanyblog.error_pages.handlers",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.error_pages.handlers import error_pages\n```\n\n```python\n\n\n```\n\n```python\nerror_pages = Blueprint('error_pages',__name__)\n@error_pages.app_errorhandler(404)\ndef error_404(error):\n    return render_template('error_pages/404.html'), 404\n@error_pages.app_errorhandler(403)\ndef error_403(error):\n    return render_template('error_pages/403.html'), 403\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "peekOfCode": "class User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n    def __init__(self,email,username,password):\n        self.email = email",
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.models import User\n```\n\n```python\n\n\n```\n\n```python\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n    def __init__(self,email,username,password):\n        self.email = email\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BlogPost",
+        "kind": 6,
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "peekOfCode": "class BlogPost(db.Models):\n    users = db.relationship(User) \n    id = db.Column(db.Integer,primary_key=True)\n    user_id = db.Column(db.Integer,db.ForeignKey('users.id'),nullable=False))\n    date = db.Column(db.DateTime,nullable=False, default=datetime.utcnow)\n    title = db.Column(db.String(140),nullable=False)\n    text = db.Column(db.Text,nullable=False)\n    def __init__(self,user_id,title,text):\n        self.user_id = user_id\n        self.title = title",
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.models import BlogPost\n```\n\n```python\n\n\n```\n\n```python\nclass BlogPost(db.Models):\n    users = db.relationship(User) \n    id = db.Column(db.Integer,primary_key=True)\n    user_id = db.Column(db.Integer,db.ForeignKey('users.id'),nullable=False))\n    date = db.Column(db.DateTime,nullable=False, default=datetime.utcnow)\n    title = db.Column(db.String(140),nullable=False)\n    text = db.Column(db.Text,nullable=False)\n    def __init__(self,user_id,title,text):\n        self.user_id = user_id\n        self.title = title\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "load_user",
+        "kind": 2,
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)",
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.models import load_user\n```\n\n```python\n\n\n```\n\n```python\ndef load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "app = Flask(__name__)\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app\n```\n\n```python\n\n\n```\n\n```python\napp = Flask(__name__)\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import basedir\n```\n\n```python\n\n\n```\n\n```python\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_DATABASE_URI']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATION']",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_TRACK_MODIFICATION']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "db = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import db\n```\n\n```python\n\n\n```\n\n```python\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "login_manager",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "login_Manager.login_view",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "login_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_Manager.login_view\n```\n\n```python\n\n\n```\n\n```python\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]
