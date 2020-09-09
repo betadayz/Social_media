@@ -19,7 +19,7 @@ def register():
     db.session.commit()
     flash('Thans for registration!')
     return redirect(url_for('users.login'))
-return render_template('register.htnl',form=form)  
+    return render_template('register.htnl',form=form)  
 
 
 @users.route('/login',methods=['GET','POST'])
@@ -58,12 +58,12 @@ def account():
         flash('User Account Updated!') 
         return redirect(url_for('users.account'))
 
-elif request.method == "GET":
-    form.username.data = current_user.username
-    form.email.data = current_user.email
+    elif request.method == "GET":
+        form.username.data = current_user.username
+        form.email.data = current_user.email
 
-profile_image = url_for('static',filename='profile_pics/'+current_user.profile_image)
-return render_template('account.html',profile_image=profile_image,form=form)
+    profile_image = url_for('static',filename='profile_pics/'+current_user.profile_image)
+    return render_template('account.html',profile_image=profile_image,form=form)
 
 @users.route("/<username>")
 def user_posts(username):

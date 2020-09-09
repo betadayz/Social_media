@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from flask_sqlalchemy import  import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
 
@@ -19,7 +19,7 @@ Migrate(app,db)
 
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_Manager.login_view = 'users.login'
+login_manager.login_view = 'users.login'
 
 from puppycompanyblog.core.views import core
 from puppycompanyblog.users.views import users

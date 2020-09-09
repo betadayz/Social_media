@@ -7,7 +7,7 @@ from flask_login import current_user
 from puppycompanyblog.models import User
 
 class LoginForm(FlaskForm):
-    email = StringField('Email',validators[DataRequired(),Email()])
+    email = StringField('Email',validators=[DataRequired(),Email()])
     password = PasswordField('Password',validators=[DataRequired()])
     submit = SubmitField('Register!')
 
@@ -30,5 +30,5 @@ class RegistrationForm(FlaskForm):
 class UpdateUserForm(FlaskForm):
     email = StringField('Email',validators=[DataRequired(),Email()])
     username = StringField('UserName',validators=[DataRequired()])
-    picture = FileField('Update Profile Picture',validators[FileAllowed(['jpg','png'])])
+    picture = FileField('Update Profile Picture',validators=[FileAllowed(['jpg','png'])])
     submit = SubmitField('Update')                       
