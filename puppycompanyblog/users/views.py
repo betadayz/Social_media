@@ -15,11 +15,11 @@ def register():
                      username=form.username.data,
                      password=form.password.data)
 
-    db.session.add(user)
-    db.session.commit()
-    flash('Thans for registration!')
-    return redirect(url_for('users.login'))
-    return render_template('register.htnl',form=form)  
+        db.session.add(user)
+        db.session.commit()
+        flash('Thanks for registration!')
+        return redirect(url_for('users.login'))
+    return render_template('register.html',form=form)  
 
 
 @users.route('/login',methods=['GET','POST'])
