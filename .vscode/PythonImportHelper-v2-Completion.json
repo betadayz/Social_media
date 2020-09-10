@@ -1,5 +1,106 @@
 [
     {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {
+            "value": "\n```python\nimport alembic\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {
+            "value": "\n```python\nimport alembic\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {
+            "value": "\n```python\nimport sqlalchemy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {
+            "value": "\n```python\nimport sqlalchemy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {
+            "value": "\n```python\nimport sqlalchemy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {
+            "value": "\n```python\nimport __future__\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {
+            "value": "\n```python\nimport logging\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {
+            "value": "\n```python\nimport logging.config\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "render_template",
         "importPath": "flask",
         "description": "flask",
@@ -45,6 +146,94 @@
     },
     {
         "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Blueprint",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -176,6 +365,150 @@
         }
     },
     {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "LoginManager",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {
+            "value": "\n```python\nimport flask_login\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "User",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "User",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BlogPost",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {
+            "value": "\n```python\nimport os\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {
+            "value": "\n```python\nimport PIL\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "db",
+        "importPath": "puppycompanyblog",
+        "description": "puppycompanyblog",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "db",
         "importPath": "puppycompanyblog",
         "description": "puppycompanyblog",
@@ -209,6 +542,50 @@
         }
     },
     {
+        "label": "RegistrationForm",
+        "importPath": "puppycompanyblog.users.forms",
+        "description": "puppycompanyblog.users.forms",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.users.forms",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.users.forms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "puppycompanyblog.users.forms",
+        "description": "puppycompanyblog.users.forms",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.users.forms",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.users.forms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UpdateUserForm",
+        "importPath": "puppycompanyblog.users.forms",
+        "description": "puppycompanyblog.users.forms",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.users.forms",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.users.forms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "add_profile_pic",
+        "importPath": "puppycompanyblog.users.picture_handler",
+        "description": "puppycompanyblog.users.picture_handler",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.users.picture_handler",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.users.picture_handler\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "generate_password_hash",
         "importPath": "werkzeug.security",
         "description": "werkzeug.security",
@@ -231,28 +608,6 @@
         }
     },
     {
-        "label": "UserMixin",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {
-            "value": "\n```python\nimport flask_login\n```\n",
-            "supportThemeIcons": false
-        }
-    },
-    {
-        "label": "LoginManager",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {
-            "value": "\n```python\nimport flask_login\n```\n",
-            "supportThemeIcons": false
-        }
-    },
-    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -264,25 +619,13 @@
         }
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {
-            "value": "\n```python\nimport os\n```\n",
-            "supportThemeIcons": false
-        }
-    },
-    {
         "label": "SQLAlchemy",
-        "importPath": "flask_sqlalchemy import ",
-        "description": "flask_sqlalchemy import ",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
         "isExtraImport": true,
-        "detail": "flask_sqlalchemy import ",
+        "detail": "flask_sqlalchemy",
         "documentation": {
-            "value": "\n```python\nimport flask_sqlalchemy import \n```\n",
+            "value": "\n```python\nimport flask_sqlalchemy\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -309,6 +652,17 @@
         }
     },
     {
+        "label": "users",
+        "importPath": "puppycompanyblog.users.views",
+        "description": "puppycompanyblog.users.views",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.users.views",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.users.views\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "error_pages",
         "importPath": "puppycompanyblog.error_pages.handlers",
         "description": "puppycompanyblog.error_pages.handlers",
@@ -316,6 +670,138 @@
         "detail": "puppycompanyblog.error_pages.handlers",
         "documentation": {
             "value": "\n```python\nimport puppycompanyblog.error_pages.handlers\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.f3d858a809f5_first_migration",
+        "description": "migrations.versions.f3d858a809f5_first_migration",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "migrations.versions.f3d858a809f5_first_migration",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.f3d858a809f5_first_migration import upgrade\n```\n\n```python\n\n\n```\n\n```python\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.f3d858a809f5_first_migration",
+        "description": "migrations.versions.f3d858a809f5_first_migration",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('blog_post')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.f3d858a809f5_first_migration",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.f3d858a809f5_first_migration import downgrade\n```\n\n```python\n\n\n```\n\n```python\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('blog_post')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.f3d858a809f5_first_migration",
+        "description": "migrations.versions.f3d858a809f5_first_migration",
+        "peekOfCode": "revision = 'f3d858a809f5'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),",
+        "detail": "migrations.versions.f3d858a809f5_first_migration",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.f3d858a809f5_first_migration import revision\n```\n\n```python\n\n\n```\n\n```python\nrevision = 'f3d858a809f5'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.f3d858a809f5_first_migration",
+        "description": "migrations.versions.f3d858a809f5_first_migration",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),",
+        "detail": "migrations.versions.f3d858a809f5_first_migration",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.f3d858a809f5_first_migration import down_revision\n```\n\n```python\n\n\n```\n\n```python\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.f3d858a809f5_first_migration",
+        "description": "migrations.versions.f3d858a809f5_first_migration",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),",
+        "detail": "migrations.versions.f3d858a809f5_first_migration",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.f3d858a809f5_first_migration import branch_labels\n```\n\n```python\n\n\n```\n\n```python\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.f3d858a809f5_first_migration",
+        "description": "migrations.versions.f3d858a809f5_first_migration",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.f3d858a809f5_first_migration",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.f3d858a809f5_first_migration import depends_on\n```\n\n```python\n\n\n```\n\n```python\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('profile_image', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=100), nullable=True),\n    sa.Column('username', sa.String(length=100), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import run_migrations_offline\n```\n\n```python\n\n\n```\n\n```python\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import run_migrations_online\n```\n\n```python\n\n\n```\n\n```python\ndef run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import config\n```\n\n```python\n\n\n```\n\n```python\nconfig = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app\nconfig.set_main_option(\n    'sqlalchemy.url',\n    str(current_app.extensions['migrate'].db.engine.url).replace('%', '%%'))\ntarget_metadata = current_app.extensions['migrate'].db.metadata",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import logger\n```\n\n```python\n\n\n```\n\n```python\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app\nconfig.set_main_option(\n    'sqlalchemy.url',\n    str(current_app.extensions['migrate'].db.engine.url).replace('%', '%%'))\ntarget_metadata = current_app.extensions['migrate'].db.metadata\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import target_metadata\n```\n\n```python\n\n\n```\n\n```python\ntarget_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -392,14 +878,134 @@
         }
     },
     {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "puppycompanyblog.users.forms",
+        "description": "puppycompanyblog.users.forms",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    password = PasswordField('Password',validators=[DataRequired()])\n    submit = SubmitField('Register!')\nclass RegistrationForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    username = StringField('UserName',validators=[DataRequired()])\n    password = PasswordField('Password',validators=[DataRequired(),EqualTo('pass_comfirm',message='Passwords must match!')])\n    pass_confirm = PasswordField('Comfirm Password',validators=[DataRequired()])\n    submit = SubmitField('Register!')",
+        "detail": "puppycompanyblog.users.forms",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.forms import LoginForm\n```\n\n```python\n\n\n```\n\n```python\nclass LoginForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    password = PasswordField('Password',validators=[DataRequired()])\n    submit = SubmitField('Register!')\nclass RegistrationForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    username = StringField('UserName',validators=[DataRequired()])\n    password = PasswordField('Password',validators=[DataRequired(),EqualTo('pass_comfirm',message='Passwords must match!')])\n    pass_confirm = PasswordField('Comfirm Password',validators=[DataRequired()])\n    submit = SubmitField('Register!')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "RegistrationForm",
+        "kind": 6,
+        "importPath": "puppycompanyblog.users.forms",
+        "description": "puppycompanyblog.users.forms",
+        "peekOfCode": "class RegistrationForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    username = StringField('UserName',validators=[DataRequired()])\n    password = PasswordField('Password',validators=[DataRequired(),EqualTo('pass_comfirm',message='Passwords must match!')])\n    pass_confirm = PasswordField('Comfirm Password',validators=[DataRequired()])\n    submit = SubmitField('Register!')\n    def check_email(self,field):\n        # check if the user already registered\n        if User.query.filter_by(email=field.data).first():\n            raise ValidationError('Your email has been registered already!')",
+        "detail": "puppycompanyblog.users.forms",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.forms import RegistrationForm\n```\n\n```python\n\n\n```\n\n```python\nclass RegistrationForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    username = StringField('UserName',validators=[DataRequired()])\n    password = PasswordField('Password',validators=[DataRequired(),EqualTo('pass_comfirm',message='Passwords must match!')])\n    pass_confirm = PasswordField('Comfirm Password',validators=[DataRequired()])\n    submit = SubmitField('Register!')\n    def check_email(self,field):\n        # check if the user already registered\n        if User.query.filter_by(email=field.data).first():\n            raise ValidationError('Your email has been registered already!')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UpdateUserForm",
+        "kind": 6,
+        "importPath": "puppycompanyblog.users.forms",
+        "description": "puppycompanyblog.users.forms",
+        "peekOfCode": "class UpdateUserForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    username = StringField('UserName',validators=[DataRequired()])\n    picture = FileField('Update Profile Picture',validators=[FileAllowed(['jpg','png'])])\n    submit = SubmitField('Update')",
+        "detail": "puppycompanyblog.users.forms",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.forms import UpdateUserForm\n```\n\n```python\n\n\n```\n\n```python\nclass UpdateUserForm(FlaskForm):\n    email = StringField('Email',validators=[DataRequired(),Email()])\n    username = StringField('UserName',validators=[DataRequired()])\n    picture = FileField('Update Profile Picture',validators=[FileAllowed(['jpg','png'])])\n    submit = SubmitField('Update')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "add_profile_pic",
+        "kind": 2,
+        "importPath": "puppycompanyblog.users.picture_handler",
+        "description": "puppycompanyblog.users.picture_handler",
+        "peekOfCode": "def add_profile_pic(pic_upload,username):\n    filename = pic_upload.filename\n    # 'mypicture . 'jpg'\n    ext_type = filename.split('.')[-1]\n    # \"username .jpg\"\n    storage_filename = str(username)+\".\"+ext_type\n    filepath = os.path.join(current_app.root_path,'static\\profile_pics',storage_filename)\n    output_size = (51,51)\n    pic = Image.open(pic_upload)\n    pic.thumbnail(output_size)",
+        "detail": "puppycompanyblog.users.picture_handler",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.picture_handler import add_profile_pic\n```\n\n```python\n\n\n```\n\n```python\ndef add_profile_pic(pic_upload,username):\n    filename = pic_upload.filename\n    # 'mypicture . 'jpg'\n    ext_type = filename.split('.')[-1]\n    # \"username .jpg\"\n    storage_filename = str(username)+\".\"+ext_type\n    filepath = os.path.join(current_app.root_path,'static\\profile_pics',storage_filename)\n    output_size = (51,51)\n    pic = Image.open(pic_upload)\n    pic.thumbnail(output_size)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "puppycompanyblog.users.views",
+        "description": "puppycompanyblog.users.views",
+        "peekOfCode": "def register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        user = User(email=form.email.data,\n                     username=form.username.data,\n                     password=form.password.data)\n        db.session.add(user)\n        db.session.commit()\n        flash('Thanks for registration!')\n        return redirect(url_for('user.login'))",
+        "detail": "puppycompanyblog.users.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.views import register\n```\n\n```python\n\n\n```\n\n```python\ndef register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        user = User(email=form.email.data,\n                     username=form.username.data,\n                     password=form.password.data)\n        db.session.add(user)\n        db.session.commit()\n        flash('Thanks for registration!')\n        return redirect(url_for('user.login'))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "puppycompanyblog.users.views",
+        "description": "puppycompanyblog.users.views",
+        "peekOfCode": "def login():\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(email=form.email.data).first()\n        if user.check_password(form.password.data) and user is not None:\n            login_user(user)\n            flash('Log in Success')\n            next = request.args.get('next')\n            if next == None or not next[0]=='/':\n                next = url_for('core.index')",
+        "detail": "puppycompanyblog.users.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.views import login\n```\n\n```python\n\n\n```\n\n```python\ndef login():\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(email=form.email.data).first()\n        if user.check_password(form.password.data) and user is not None:\n            login_user(user)\n            flash('Log in Success')\n            next = request.args.get('next')\n            if next == None or not next[0]=='/':\n                next = url_for('core.index')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "puppycompanyblog.users.views",
+        "description": "puppycompanyblog.users.views",
+        "peekOfCode": "def logout():\n    logout_user()\n    return redirect(url_for(\"core.index\"))\n@users.route('/account',methods=['GET','POST'])\n@login_required\ndef account():\n    form = UpdateUserForm()\n    if form.validate_on_submit():\n        if form.picture.data:\n            username = current_user.username",
+        "detail": "puppycompanyblog.users.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.views import logout\n```\n\n```python\n\n\n```\n\n```python\ndef logout():\n    logout_user()\n    return redirect(url_for(\"core.index\"))\n@users.route('/account',methods=['GET','POST'])\n@login_required\ndef account():\n    form = UpdateUserForm()\n    if form.validate_on_submit():\n        if form.picture.data:\n            username = current_user.username\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "account",
+        "kind": 2,
+        "importPath": "puppycompanyblog.users.views",
+        "description": "puppycompanyblog.users.views",
+        "peekOfCode": "def account():\n    form = UpdateUserForm()\n    if form.validate_on_submit():\n        if form.picture.data:\n            username = current_user.username\n            pic = add_profile_pic(form.picture.data,username)\n            current_user.profile_image = pic\n        current_user.username = form.username.data\n        current_user.email = form.email.data \n        db.session.commit()",
+        "detail": "puppycompanyblog.users.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.views import account\n```\n\n```python\n\n\n```\n\n```python\ndef account():\n    form = UpdateUserForm()\n    if form.validate_on_submit():\n        if form.picture.data:\n            username = current_user.username\n            pic = add_profile_pic(form.picture.data,username)\n            current_user.profile_image = pic\n        current_user.username = form.username.data\n        current_user.email = form.email.data \n        db.session.commit()\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "user_posts",
+        "kind": 2,
+        "importPath": "puppycompanyblog.users.views",
+        "description": "puppycompanyblog.users.views",
+        "peekOfCode": "def user_posts(username):\n    page = request.args.get('page',1,type=int)\n    user = User.query.filter_by(username=username).first_or_404()\n    blog_posts = BlogPost.query.filter_by(author=user).order_by(BlogPost.date.desc()).paginate(page=page,per_page=5)\n    return render_template('user_blog_posts.html',blog_posts=blog_posts,user=user)",
+        "detail": "puppycompanyblog.users.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.views import user_posts\n```\n\n```python\n\n\n```\n\n```python\ndef user_posts(username):\n    page = request.args.get('page',1,type=int)\n    user = User.query.filter_by(username=username).first_or_404()\n    blog_posts = BlogPost.query.filter_by(author=user).order_by(BlogPost.date.desc()).paginate(page=page,per_page=5)\n    return render_template('user_blog_posts.html',blog_posts=blog_posts,user=user)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "puppycompanyblog.users.views",
+        "description": "puppycompanyblog.users.views",
+        "peekOfCode": "users = Blueprint('users',__name__)\n@users.route('/register',methods=['GET','POST'])\ndef register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        user = User(email=form.email.data,\n                     username=form.username.data,\n                     password=form.password.data)\n        db.session.add(user)\n        db.session.commit()",
+        "detail": "puppycompanyblog.users.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.users.views import users\n```\n\n```python\n\n\n```\n\n```python\nusers = Blueprint('users',__name__)\n@users.route('/register',methods=['GET','POST'])\ndef register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        user = User(email=form.email.data,\n                     username=form.username.data,\n                     password=form.password.data)\n        db.session.add(user)\n        db.session.commit()\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "User",
         "kind": 6,
         "importPath": "puppycompanyblog.models",
         "description": "puppycompanyblog.models",
-        "peekOfCode": "class User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n    def __init__(self,email,username,password):\n        self.email = email",
+        "peekOfCode": "class User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n    def __init__(self,email,username,password):\n        self.email = email",
         "detail": "puppycompanyblog.models",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.models import User\n```\n\n```python\n\n\n```\n\n```python\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n    def __init__(self,email,username,password):\n        self.email = email\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.models import User\n```\n\n```python\n\n\n```\n\n```python\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n    def __init__(self,email,username,password):\n        self.email = email\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -408,10 +1014,10 @@
         "kind": 6,
         "importPath": "puppycompanyblog.models",
         "description": "puppycompanyblog.models",
-        "peekOfCode": "class BlogPost(db.Models):\n    users = db.relationship(User) \n    id = db.Column(db.Integer,primary_key=True)\n    user_id = db.Column(db.Integer,db.ForeignKey('users.id'),nullable=False))\n    date = db.Column(db.DateTime,nullable=False, default=datetime.utcnow)\n    title = db.Column(db.String(140),nullable=False)\n    text = db.Column(db.Text,nullable=False)\n    def __init__(self,user_id,title,text):\n        self.user_id = user_id\n        self.title = title",
+        "peekOfCode": "class BlogPost(db.Model):\n    users = db.relationship(User) \n    id = db.Column(db.Integer,primary_key=True)\n    user_id = db.Column(db.Integer,db.ForeignKey('users.id'),nullable=False)\n    date = db.Column(db.DateTime,nullable=False, default=datetime.utcnow)\n    title = db.Column(db.String(140),nullable=False)\n    text = db.Column(db.Text,nullable=False)\n    def __init__(self,user_id,title,text):\n        self.user_id = user_id\n        self.title = title",
         "detail": "puppycompanyblog.models",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.models import BlogPost\n```\n\n```python\n\n\n```\n\n```python\nclass BlogPost(db.Models):\n    users = db.relationship(User) \n    id = db.Column(db.Integer,primary_key=True)\n    user_id = db.Column(db.Integer,db.ForeignKey('users.id'),nullable=False))\n    date = db.Column(db.DateTime,nullable=False, default=datetime.utcnow)\n    title = db.Column(db.String(140),nullable=False)\n    text = db.Column(db.Text,nullable=False)\n    def __init__(self,user_id,title,text):\n        self.user_id = user_id\n        self.title = title\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.models import BlogPost\n```\n\n```python\n\n\n```\n\n```python\nclass BlogPost(db.Model):\n    users = db.relationship(User) \n    id = db.Column(db.Integer,primary_key=True)\n    user_id = db.Column(db.Integer,db.ForeignKey('users.id'),nullable=False)\n    date = db.Column(db.DateTime,nullable=False, default=datetime.utcnow)\n    title = db.Column(db.String(140),nullable=False)\n    text = db.Column(db.Text,nullable=False)\n    def __init__(self,user_id,title,text):\n        self.user_id = user_id\n        self.title = title\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -420,10 +1026,10 @@
         "kind": 2,
         "importPath": "puppycompanyblog.models",
         "description": "puppycompanyblog.models",
-        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)",
         "detail": "puppycompanyblog.models",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.models import load_user\n```\n\n```python\n\n\n```\n\n```python\ndef load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(100),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(100),unique=True,index=True)\n    username = db.Column(db.String(100),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.models import load_user\n```\n\n```python\n\n\n```\n\n```python\ndef load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -432,10 +1038,22 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "app = Flask(__name__)\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SECRET_KEY'] = 'mysecret'\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import app\n```\n\n```python\n\n\n```\n\n```python\napp = Flask(__name__)\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app\n```\n\n```python\n\n\n```\n\n```python\napp = Flask(__name__)\napp.config['SECRET_KEY'] = 'mysecret'\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app.config['SECRET_KEY']",
+        "kind": 5,
+        "importPath": "puppycompanyblog.__init__",
+        "description": "puppycompanyblog.__init__",
+        "peekOfCode": "app.config['SECRET_KEY'] = 'mysecret'\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core",
+        "detail": "puppycompanyblog.__init__",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SECRET_KEY']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SECRET_KEY'] = 'mysecret'\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -444,10 +1062,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import basedir\n```\n\n```python\n\n\n```\n\n```python\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import basedir\n```\n\n```python\n\n\n```\n\n```python\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -456,10 +1074,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_DATABASE_URI']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_DATABASE_URI']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -468,10 +1086,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_TRACK_MODIFICATION']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_TRACK_MODIFICATION']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -480,10 +1098,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "db = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "peekOfCode": "db = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import db\n```\n\n```python\n\n\n```\n\n```python\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import db\n```\n\n```python\n\n\n```\n\n```python\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -492,22 +1110,22 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)\n```\n",
             "supportThemeIcons": false
         }
     },
     {
-        "label": "login_Manager.login_view",
+        "label": "login_manager.login_view",
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "login_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)",
+        "peekOfCode": "login_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_Manager.login_view\n```\n\n```python\n\n\n```\n\n```python\nlogin_Manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(error_pages)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager.login_view\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)\n```\n",
             "supportThemeIcons": false
         }
     }

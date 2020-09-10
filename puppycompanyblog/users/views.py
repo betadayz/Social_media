@@ -1,5 +1,5 @@
-from flask import render_template,url_for,flash,redirect,request,Blueprint
-from flask_login import login_user,current_user,logout_user,login_required
+from flask import render_template, url_for, flash, redirect, request, Blueprint
+from flask_login import login_user, current_user, logout_user, login_required
 from puppycompanyblog import db
 from puppycompanyblog.models import User, BlogPost
 from puppycompanyblog.users.forms import RegistrationForm,LoginForm,UpdateUserForm
@@ -18,7 +18,7 @@ def register():
         db.session.add(user)
         db.session.commit()
         flash('Thanks for registration!')
-        return redirect(url_for('users.login'))
+        return redirect(url_for('user.login'))
     return render_template('register.html',form=form)  
 
 
@@ -33,7 +33,7 @@ def login():
             next = request.args.get('next')
             if next == None or not next[0]=='/':
                 next = url_for('core.index')
-        return redirect(next)        
+            return redirect(next)        
     return render_template('login.html',form=form)        
 
 
