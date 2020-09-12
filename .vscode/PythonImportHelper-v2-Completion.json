@@ -112,6 +112,72 @@
         }
     },
     {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "request",
         "importPath": "flask",
         "description": "flask",
@@ -266,6 +332,50 @@
         }
     },
     {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {
+            "value": "\n```python\nimport flask_wtf\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {
+            "value": "\n```python\nimport wtforms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Submitfield",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {
+            "value": "\n```python\nimport wtforms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "TextAreaField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {
+            "value": "\n```python\nimport wtforms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "StringField",
         "importPath": "wtforms",
         "description": "wtforms",
@@ -310,6 +420,17 @@
         }
     },
     {
+        "label": "DataRequireed",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {
+            "value": "\n```python\nimport wtforms.validators\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "DataRequired",
         "importPath": "wtforms.validators",
         "description": "wtforms.validators",
@@ -343,24 +464,24 @@
         }
     },
     {
-        "label": "FileField",
-        "importPath": "flask_wtf.file",
-        "description": "flask_wtf.file",
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
         "isExtraImport": true,
-        "detail": "flask_wtf.file",
+        "detail": "flask_login",
         "documentation": {
-            "value": "\n```python\nimport flask_wtf.file\n```\n",
+            "value": "\n```python\nimport flask_login\n```\n",
             "supportThemeIcons": false
         }
     },
     {
-        "label": "FileAllowed",
-        "importPath": "flask_wtf.file",
-        "description": "flask_wtf.file",
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
         "isExtraImport": true,
-        "detail": "flask_wtf.file",
+        "detail": "flask_login",
         "documentation": {
-            "value": "\n```python\nimport flask_wtf.file\n```\n",
+            "value": "\n```python\nimport flask_login\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -442,58 +563,13 @@
         }
     },
     {
-        "label": "User",
-        "importPath": "puppycompanyblog.models",
-        "description": "puppycompanyblog.models",
+        "label": "db",
+        "importPath": "puppycompanyblog",
+        "description": "puppycompanyblog",
         "isExtraImport": true,
-        "detail": "puppycompanyblog.models",
+        "detail": "puppycompanyblog",
         "documentation": {
-            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
-            "supportThemeIcons": false
-        }
-    },
-    {
-        "label": "User",
-        "importPath": "puppycompanyblog.models",
-        "description": "puppycompanyblog.models",
-        "isExtraImport": true,
-        "detail": "puppycompanyblog.models",
-        "documentation": {
-            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
-            "supportThemeIcons": false
-        }
-    },
-    {
-        "label": "BlogPost",
-        "importPath": "puppycompanyblog.models",
-        "description": "puppycompanyblog.models",
-        "isExtraImport": true,
-        "detail": "puppycompanyblog.models",
-        "documentation": {
-            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
-            "supportThemeIcons": false
-        }
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {
-            "value": "\n```python\nimport os\n```\n",
-            "supportThemeIcons": false
-        }
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {
-            "value": "\n```python\nimport PIL\n```\n",
+            "value": "\n```python\nimport puppycompanyblog\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -538,6 +614,106 @@
         "detail": "puppycompanyblog",
         "documentation": {
             "value": "\n```python\nimport puppycompanyblog\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BlogPost",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "User",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "User",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BlogPost",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BlogPostForm",
+        "importPath": "puppycompanyblog.blog_post.forms",
+        "description": "puppycompanyblog.blog_post.forms",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.blog_post.forms",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.blog_post.forms\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "FileField",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {
+            "value": "\n```python\nimport flask_wtf.file\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "FileAllowed",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {
+            "value": "\n```python\nimport flask_wtf.file\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {
+            "value": "\n```python\nimport os\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {
+            "value": "\n```python\nimport PIL\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -802,6 +978,30 @@
         "detail": "migrations.env",
         "documentation": {
             "value": "\n```python\nfrom migrations.env import target_metadata\n```\n\n```python\n\n\n```\n\n```python\ntarget_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BlogPostForm",
+        "kind": 6,
+        "importPath": "puppycompanyblog.blogpost.forms",
+        "description": "puppycompanyblog.blogpost.forms",
+        "peekOfCode": "class BlogPostForm(FlaskForm):\n    title = StringField('Title',validators=[DataRequired()])\n    text = TextAreaField('Text',validators=[DataRequired()])\n    submit = SubmitField('Post')",
+        "detail": "puppycompanyblog.blogpost.forms",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.blogpost.forms import BlogPostForm\n```\n\n```python\n\n\n```\n\n```python\nclass BlogPostForm(FlaskForm):\n    title = StringField('Title',validators=[DataRequired()])\n    text = TextAreaField('Text',validators=[DataRequired()])\n    submit = SubmitField('Post')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "blog_posts",
+        "kind": 5,
+        "importPath": "puppycompanyblog.blogpost.views",
+        "description": "puppycompanyblog.blogpost.views",
+        "peekOfCode": "blog_posts = Blueprint('blog_posts',__name__)",
+        "detail": "puppycompanyblog.blogpost.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.blogpost.views import blog_posts\n```\n\n```python\n\n\n```\n\n```python\nblog_posts = Blueprint('blog_posts',__name__)\n```\n",
             "supportThemeIcons": false
         }
     },
