@@ -354,7 +354,7 @@
         }
     },
     {
-        "label": "Submitfield",
+        "label": "SubmitField",
         "importPath": "wtforms",
         "description": "wtforms",
         "isExtraImport": true,
@@ -420,7 +420,7 @@
         }
     },
     {
-        "label": "DataRequireed",
+        "label": "DataRequired",
         "importPath": "wtforms.validators",
         "description": "wtforms.validators",
         "isExtraImport": true,
@@ -629,6 +629,17 @@
         }
     },
     {
+        "label": "BlogPost",
+        "importPath": "puppycompanyblog.models",
+        "description": "puppycompanyblog.models",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.models",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.models\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "User",
         "importPath": "puppycompanyblog.models",
         "description": "puppycompanyblog.models",
@@ -663,12 +674,12 @@
     },
     {
         "label": "BlogPostForm",
-        "importPath": "puppycompanyblog.blog_post.forms",
-        "description": "puppycompanyblog.blog_post.forms",
+        "importPath": "puppycompanyblog.blog_posts.forms",
+        "description": "puppycompanyblog.blog_posts.forms",
         "isExtraImport": true,
-        "detail": "puppycompanyblog.blog_post.forms",
+        "detail": "puppycompanyblog.blog_posts.forms",
         "documentation": {
-            "value": "\n```python\nimport puppycompanyblog.blog_post.forms\n```\n",
+            "value": "\n```python\nimport puppycompanyblog.blog_posts.forms\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -839,6 +850,17 @@
         }
     },
     {
+        "label": "blog_posts",
+        "importPath": "puppycompanyblog.blog_posts.views",
+        "description": "puppycompanyblog.blog_posts.views",
+        "isExtraImport": true,
+        "detail": "puppycompanyblog.blog_posts.views",
+        "documentation": {
+            "value": "\n```python\nimport puppycompanyblog.blog_posts.views\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
         "label": "error_pages",
         "importPath": "puppycompanyblog.error_pages.handlers",
         "description": "puppycompanyblog.error_pages.handlers",
@@ -984,24 +1006,72 @@
     {
         "label": "BlogPostForm",
         "kind": 6,
-        "importPath": "puppycompanyblog.blogpost.forms",
-        "description": "puppycompanyblog.blogpost.forms",
+        "importPath": "puppycompanyblog.blog_posts.forms",
+        "description": "puppycompanyblog.blog_posts.forms",
         "peekOfCode": "class BlogPostForm(FlaskForm):\n    title = StringField('Title',validators=[DataRequired()])\n    text = TextAreaField('Text',validators=[DataRequired()])\n    submit = SubmitField('Post')",
-        "detail": "puppycompanyblog.blogpost.forms",
+        "detail": "puppycompanyblog.blog_posts.forms",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.blogpost.forms import BlogPostForm\n```\n\n```python\n\n\n```\n\n```python\nclass BlogPostForm(FlaskForm):\n    title = StringField('Title',validators=[DataRequired()])\n    text = TextAreaField('Text',validators=[DataRequired()])\n    submit = SubmitField('Post')\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.blog_posts.forms import BlogPostForm\n```\n\n```python\n\n\n```\n\n```python\nclass BlogPostForm(FlaskForm):\n    title = StringField('Title',validators=[DataRequired()])\n    text = TextAreaField('Text',validators=[DataRequired()])\n    submit = SubmitField('Post')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "create_post",
+        "kind": 2,
+        "importPath": "puppycompanyblog.blog_posts.views",
+        "description": "puppycompanyblog.blog_posts.views",
+        "peekOfCode": "def create_post():\n    form = BlogPostForm()\n    if form.validate_on_submit():\n        blog_post = BlogPost(title=form.title.data,\n                             text=form.text.data,\n                             user_id=current_user.id)\n        db.session.add(blog_post)\n        db.session.commit()\n        flash('Blog Post Created')\n        return redirect(url_for('core.index'))",
+        "detail": "puppycompanyblog.blog_posts.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.blog_posts.views import create_post\n```\n\n```python\n\n\n```\n\n```python\ndef create_post():\n    form = BlogPostForm()\n    if form.validate_on_submit():\n        blog_post = BlogPost(title=form.title.data,\n                             text=form.text.data,\n                             user_id=current_user.id)\n        db.session.add(blog_post)\n        db.session.commit()\n        flash('Blog Post Created')\n        return redirect(url_for('core.index'))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "blog_post",
+        "kind": 2,
+        "importPath": "puppycompanyblog.blog_posts.views",
+        "description": "puppycompanyblog.blog_posts.views",
+        "peekOfCode": "def blog_post(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    return render_template('blog_post.html',title=blog_post.title,\n                            date=blog_post.date,post=blog_post) \n@blog_posts.route('/<int:blog_post_id>/update',methods=['GET','POST'])\n@login_required\ndef update(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    if blog_post.author != current_user:\n        abort(403)",
+        "detail": "puppycompanyblog.blog_posts.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.blog_posts.views import blog_post\n```\n\n```python\n\n\n```\n\n```python\ndef blog_post(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    return render_template('blog_post.html',title=blog_post.title,\n                            date=blog_post.date,post=blog_post) \n@blog_posts.route('/<int:blog_post_id>/update',methods=['GET','POST'])\n@login_required\ndef update(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    if blog_post.author != current_user:\n        abort(403)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "puppycompanyblog.blog_posts.views",
+        "description": "puppycompanyblog.blog_posts.views",
+        "peekOfCode": "def update(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    if blog_post.author != current_user:\n        abort(403)\n    form = BlogPostForm()\n    if form.validate_on_submit():\n        blog_post.title = form.title.data\n        blog_post.text = form.text.data\n        db.session.commit()\n        flash('Blog Post Updated')",
+        "detail": "puppycompanyblog.blog_posts.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.blog_posts.views import update\n```\n\n```python\n\n\n```\n\n```python\ndef update(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    if blog_post.author != current_user:\n        abort(403)\n    form = BlogPostForm()\n    if form.validate_on_submit():\n        blog_post.title = form.title.data\n        blog_post.text = form.text.data\n        db.session.commit()\n        flash('Blog Post Updated')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "puppycompanyblog.blog_posts.views",
+        "description": "puppycompanyblog.blog_posts.views",
+        "peekOfCode": "def delete_post(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    if blog_post.author != current_user:\n        abort(403)\n    db.session.delete(blog_post)\n    db.session.commit()\n    flash('Blog Post Deleted')\n    return redirect(url_for('core.index'))",
+        "detail": "puppycompanyblog.blog_posts.views",
+        "documentation": {
+            "value": "\n```python\nfrom puppycompanyblog.blog_posts.views import delete_post\n```\n\n```python\n\n\n```\n\n```python\ndef delete_post(blog_post_id):\n    blog_post = BlogPost.query.get_or_404(blog_post_id)\n    if blog_post.author != current_user:\n        abort(403)\n    db.session.delete(blog_post)\n    db.session.commit()\n    flash('Blog Post Deleted')\n    return redirect(url_for('core.index'))\n```\n",
             "supportThemeIcons": false
         }
     },
     {
         "label": "blog_posts",
         "kind": 5,
-        "importPath": "puppycompanyblog.blogpost.views",
-        "description": "puppycompanyblog.blogpost.views",
-        "peekOfCode": "blog_posts = Blueprint('blog_posts',__name__)",
-        "detail": "puppycompanyblog.blogpost.views",
+        "importPath": "puppycompanyblog.blog_posts.views",
+        "description": "puppycompanyblog.blog_posts.views",
+        "peekOfCode": "blog_posts = Blueprint('blog_posts',__name__)\n@blog_posts.route('/create',methods=['GET','POST'])\n@login_required\ndef create_post():\n    form = BlogPostForm()\n    if form.validate_on_submit():\n        blog_post = BlogPost(title=form.title.data,\n                             text=form.text.data,\n                             user_id=current_user.id)\n        db.session.add(blog_post)",
+        "detail": "puppycompanyblog.blog_posts.views",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.blogpost.views import blog_posts\n```\n\n```python\n\n\n```\n\n```python\nblog_posts = Blueprint('blog_posts',__name__)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.blog_posts.views import blog_posts\n```\n\n```python\n\n\n```\n\n```python\nblog_posts = Blueprint('blog_posts',__name__)\n@blog_posts.route('/create',methods=['GET','POST'])\n@login_required\ndef create_post():\n    form = BlogPostForm()\n    if form.validate_on_submit():\n        blog_post = BlogPost(title=form.title.data,\n                             text=form.text.data,\n                             user_id=current_user.id)\n        db.session.add(blog_post)\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -1010,10 +1080,10 @@
         "kind": 2,
         "importPath": "puppycompanyblog.core.views",
         "description": "puppycompanyblog.core.views",
-        "peekOfCode": "def index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')",
+        "peekOfCode": "def index():\n    page = request.args.get('page',1,type=int)\n    blog_posts = BlogPost.query.order_by(BlogPost.date.desc()).paginate(page=page,per_page=5)\n    return render_template('index.html',blog_posts=blog_posts)\n@core.route('/info')\ndef info():\n    return render_template('info.html')",
         "detail": "puppycompanyblog.core.views",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.core.views import index\n```\n\n```python\n\n\n```\n\n```python\ndef index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.core.views import index\n```\n\n```python\n\n\n```\n\n```python\ndef index():\n    page = request.args.get('page',1,type=int)\n    blog_posts = BlogPost.query.order_by(BlogPost.date.desc()).paginate(page=page,per_page=5)\n    return render_template('index.html',blog_posts=blog_posts)\n@core.route('/info')\ndef info():\n    return render_template('info.html')\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -1034,10 +1104,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.core.views",
         "description": "puppycompanyblog.core.views",
-        "peekOfCode": "core = Blueprint('core',__name__)\n@core.route('/')\ndef index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')",
+        "peekOfCode": "core = Blueprint('core',__name__)\n@core.route('/')\ndef index():\n    page = request.args.get('page',1,type=int)\n    blog_posts = BlogPost.query.order_by(BlogPost.date.desc()).paginate(page=page,per_page=5)\n    return render_template('index.html',blog_posts=blog_posts)\n@core.route('/info')\ndef info():\n    return render_template('info.html')",
         "detail": "puppycompanyblog.core.views",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.core.views import core\n```\n\n```python\n\n\n```\n\n```python\ncore = Blueprint('core',__name__)\n@core.route('/')\ndef index():\n    return render_template('index.html')\n@core.route('/info')\ndef info():\n    return render_template('info.html')\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.core.views import core\n```\n\n```python\n\n\n```\n\n```python\ncore = Blueprint('core',__name__)\n@core.route('/')\ndef index():\n    page = request.args.get('page',1,type=int)\n    blog_posts = BlogPost.query.order_by(BlogPost.date.desc()).paginate(page=page,per_page=5)\n    return render_template('index.html',blog_posts=blog_posts)\n@core.route('/info')\ndef info():\n    return render_template('info.html')\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -1274,10 +1344,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_DATABASE_URI']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_DATABASE_URI']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir,'data.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -1286,10 +1356,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_TRACK_MODIFICATION']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import app.config['SQLALCHEMY_TRACK_MODIFICATION']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_TRACK_MODIFICATION'] = False\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -1298,10 +1368,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "db = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)",
+        "peekOfCode": "db = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import db\n```\n\n```python\n\n\n```\n\n```python\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import db\n```\n\n```python\n\n\n```\n\n```python\ndb = SQLAlchemy(app)\nMigrate(app,db)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -1310,10 +1380,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)",
+        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(blog_posts)",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(blog_posts)\n```\n",
             "supportThemeIcons": false
         }
     },
@@ -1322,10 +1392,10 @@
         "kind": 5,
         "importPath": "puppycompanyblog.__init__",
         "description": "puppycompanyblog.__init__",
-        "peekOfCode": "login_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)",
+        "peekOfCode": "login_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(blog_posts)\napp.register_blueprint(error_pages)",
         "detail": "puppycompanyblog.__init__",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager.login_view\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(error_pages)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.__init__ import login_manager.login_view\n```\n\n```python\n\n\n```\n\n```python\nlogin_manager.login_view = 'users.login'\nfrom puppycompanyblog.core.views import core\nfrom puppycompanyblog.users.views import users\nfrom puppycompanyblog.blog_posts.views import blog_posts\nfrom puppycompanyblog.error_pages.handlers import error_pages\napp.register_blueprint(core)\napp.register_blueprint(users)\napp.register_blueprint(blog_posts)\napp.register_blueprint(error_pages)\n```\n",
             "supportThemeIcons": false
         }
     }

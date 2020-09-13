@@ -23,7 +23,7 @@ login_manager.login_view = 'users.login'
 
 from puppycompanyblog.core.views import core
 from puppycompanyblog.users.views import users
-from  puppycompanyblog.blog_posts.views import blog_posts
+from puppycompanyblog.blog_posts.views import blog_posts
 from puppycompanyblog.error_pages.handlers import error_pages
 
 app.register_blueprint(core)
