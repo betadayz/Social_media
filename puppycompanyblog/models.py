@@ -6,7 +6,7 @@ from datetime import datetime
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(user_id)
-
+#model 
 class User(db.Model,UserMixin):
     __tablename__ = 'users'
     id = db.Column(db.Integer,primary_key=True)
