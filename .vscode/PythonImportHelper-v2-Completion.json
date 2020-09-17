@@ -1296,10 +1296,10 @@
         "kind": 2,
         "importPath": "puppycompanyblog.models",
         "description": "puppycompanyblog.models",
-        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\n#model \nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))",
         "detail": "puppycompanyblog.models",
         "documentation": {
-            "value": "\n```python\nfrom puppycompanyblog.models import load_user\n```\n\n```python\n\n\n```\n\n```python\ndef load_user(user_id):\n    return User.query.get(user_id)\nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n    posts = db.relationship('BlogPost', backref='author',lazy=True)\n```\n",
+            "value": "\n```python\nfrom puppycompanyblog.models import load_user\n```\n\n```python\n\n\n```\n\n```python\ndef load_user(user_id):\n    return User.query.get(user_id)\n#model \nclass User(db.Model,UserMixin):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer,primary_key=True)\n    profile_image = db.Column(db.String(64),nullable=False,default='default_profile.png')\n    email = db.Column(db.String(64),unique=True,index=True)\n    username = db.Column(db.String(64),unique=True,index=True)\n    password_hash = db.Column(db.String(128))\n```\n",
             "supportThemeIcons": false
         }
     },
